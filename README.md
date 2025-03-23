@@ -29,11 +29,13 @@ Details about lab installation and configuration [Domain Controller] and [Certif
 - Requester has the ability to specify subjectAltName (SAN) in the CSR
   
 ![alt text](/images/ESC1/Prerequisites/CA.png)
+
 ![alt text](/images/ESC1/Prerequisites/Template.png)
 
 ### Exploit
 
 ![alt text](/images/ESC1/Exploit/1.png)
+
 ![alt text](/images/ESC1/Exploit/2.png)
 
 ### Detections & Mitigations
@@ -79,10 +81,12 @@ In this scenerio, at least 2 certificate templates matching conditions below:
   - Enrollment agent restrictions are not implemented on the CA
   
 ![alt text](/images/ESC3/Prerequisites/SchemaVersion.png)
+
 |![alt text](/images/ESC3/Prerequisites/ESC3-Condition2.png)|![alt text](/images/ESC3/Prerequisites/ApplicationPolicy.png)|
 |-|-|
 
 ![alt text](/images/ESC3/Prerequisites/User.png)
+
 ![alt text](/images/ESC3/Prerequisites/CA%20restriction.png)
 
 
@@ -90,7 +94,9 @@ In this scenerio, at least 2 certificate templates matching conditions below:
 ### Exploit
 
 ![alt text](/images/ESC3/Exploit/1.png)
+
 ![alt text](/images/ESC3/Exploit/2.png)
+
 ![alt text](/images/ESC3/Exploit/3.png)
 
 
@@ -118,9 +124,13 @@ Any of the rights below included in the misconfigured certificate template:
 ### Exploit
 
 ![alt text](/images/ESC4/Exploit/1.png)
+
 ![alt text](/images/ESC4/Exploit/ModificatedTemplate.png)
+
 ![alt text](/images/ESC4/Exploit/2.png)
+
 ![alt text](/images/ESC4/Exploit/3.png)
+
 ![alt text](/images/ESC4/Exploit/4.png)
 
 ### Prevention & Mitigation
@@ -149,8 +159,11 @@ The PKI system’s security is at risk if an attacker with limited privileges ga
 ### Exploit
 
 ![alt text](/images/ESC5/Exploit/1.png)
+
 ![alt text](/images/ESC5/Exploit/2.png)
+
 ![alt text](/images/ESC5/Exploit/3.png)
+
 ![alt text](/images/ESC5/Exploit/4.png)
 
 ### Detections & Mitigations
@@ -168,6 +181,7 @@ The PKI system’s security is at risk if an attacker with limited privileges ga
 ### Exploit
 
 ![alt text](/images/ESC6/Exploit/1.png)
+
 ![alt text](/images/ESC6/Exploit/2.png)
 
 ### Detections & Mitigations
@@ -188,7 +202,9 @@ The PKI system’s security is at risk if an attacker with limited privileges ga
 ### Exploit
 
 ![alt text](/images/ESC7/Exploit/1.png)
+
 ![alt text](/images/ESC7/Exploit/2.png)
+
 ![alt text](/images/ESC7/Exploit/3.png)
 
 ### Detections & Mitigations
@@ -206,12 +222,16 @@ The PKI system’s security is at risk if an attacker with limited privileges ga
 - Web Enrollment Services base on HTTP
 
 ![alt text](/images/ESC8/Prerequisites/Condition.png)
+
 ![alt text](/images/ESC8/Prerequisites/HTTP.png)
 ### Exploit
 
 ![alt text](/images/ESC8/Exploit/1.png)
+
 ![alt text](/images/ESC8/Exploit/2.png)
+
 ![alt text](/images/ESC8/Exploit/3.png)
+
 ![alt text](/images/ESC8/Exploit/4.png)
 
 ### Detections & Mitigations
