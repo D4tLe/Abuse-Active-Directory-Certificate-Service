@@ -3,15 +3,26 @@
 This document focuses on understanding and exploiting misconfigurations in Active Directory Certificate Services (ADCS) that can lead to privilege escalation in a Windows domain. ADCS is used for certificate-based authentication, but weaknesses in its configuration can allow attackers to gain higher privileges, including domain administrator access.
 
 ## Lab environment
-- Domain Controller
-- Root Certificate Authority (Standalone)
-- Subordinate Certificate Authority (Enterprise)
-- Kali Linux machine
+- Domain Controller - 192.168.120.132
+- Root Certificate Authority (Standalone) - 192.168.120.133
+- Subordinate Certificate Authority (Enterprise) - 192.168.120.134
+- Kali Linux machine - 192.168.120.130
 
 Details about lab installation and configuration [Domain Controller] and [Certificate Authority] 
 
 ## Tools
-- Ceritpy
+- [Certipy]
+- [Coercer]
+- [Impacket]
+- [PassTheCert.py][PassTheCert]
+
+[Certipy]:https://github.com/ly4k/Certipy
+
+[Coercer]:https://github.com/p0dalirius/Coercer
+
+[Impacket]:https://github.com/fortra/impacket
+
+[PassTheCert]:https://github.com/AlmondOffSec/PassTheCert
 
 ## ESC1
 
